@@ -1,0 +1,21 @@
+h1
+{
+  color: #ffffff;
+  background-color: #9C27B0;
+  font-size: 50px;
+  margin-left: 50px;
+  font-family: monospace;
+}
+
+h2
+{
+  color: #ffffff;
+  background-color: #9C27B0;
+  font-size: 25px;
+  font-family: serif;
+}
+body
+{
+  font-family: helvetica;
+  color: green
+}
