@@ -1,21 +1,83 @@
-h1
-{
-  color: #ffffff;
-  background-color: #9C27B0;
-  font-size: 50px;
-  margin-left: 50px;
-  font-family: monospace;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-h2
-{
-  color: #ffffff;
-  background-color: #9C27B0;
-  font-size: 25px;
-  font-family: serif;
+body {
+  padding: 0 5%;
 }
-body
-{
-  font-family: helvetica;
-  color: green
+
+@font-face {
+    font-family: 'Avenir LT Std Light';
+    src: url('AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Heavy';
+    src: url('AvenirLTStd-Heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Demi';
+    src: url('AvenirNextLTPro-Demi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Book';
+    src: url('AvenirLTStd-Book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Black';
+    src: url('AvenirLTStd-Black.woff') format('woff');
+}
+
+h1 {
+  top: 35px;
+  left: 50vw;
+  font-size: 40px;
+  font-family: 'Avenir Next LT Demi';
+  text-align: center;
+}
+
+.centro {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#barra {
+  height: auto;
+  width: 100%;
+  margin-top:2%;
+  text-align: black;
+}
+
+h2 {
+  font-family: 'Avenir Next LT Demi';
+  font-size: 15px;
+  text-align: center;
+  transition: transform 0.5s;
+  margin: 20px 0;
+}
+
+h2:hover {
+  text-decoration: underline;
+  color: e00076;
+}
+
+h3 {
+  font-family: 'Avenir Next LT Demi';
+  margin-top: 5%;
+  text-align: left;
+  color: red;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 3%;
+}
+
+p {
+  font-family: 'Avenir LT Std Light';
+  font-size: 17px;
+  text-align: left;
+  color: black;
 }
