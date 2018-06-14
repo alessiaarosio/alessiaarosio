@@ -33,9 +33,9 @@ body {
 }
 
 h1 {
-  top: 35px;
+  top: 2%;
   left: 50vw;
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Avenir LT Std Heavy';
   text-align: center;
 }
@@ -48,12 +48,12 @@ h1 {
 #barra {
   height: auto;
   width: 100%;
-  margin-top:2%;
-  text-align: black;
+  margin-top: 3%;
 }
 
 h2 {
   font-family: 'Avenir Next LT Demi';
+  color: red;
   font-size: 15px;
   text-align: center;
   transition: transform 0.5s;
@@ -61,23 +61,82 @@ h2 {
 }
 
 h2:hover {
-  text-decoration: underline;
-  color: e00076;
+  transform: scale(1.2, 1.2);
+}
+
+.presentazione {
+  color: red;
+  font-family: 'Avenir Next LT Demi';
+  font-size: 17px;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 h3 {
   font-family: 'Avenir Next LT Demi';
-  margin-top: 5%;
   text-align: left;
   color: red;
   font-size: 20px;
-  margin-left: 15%;
-  margin-right: 3%;
+  margin-top: 5%;
 }
 
 p {
   font-family: 'Avenir LT Std Light';
-  font-size: 17px;
+  font-size: 16px;
   text-align: left;
   color: black;
+  margin-bottom: 5%;
+}
+
+.icona:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 0.5s;}
+
+h4 {
+  font-family: 'Avenir Next LT Demi';
+  text-align: left;
+  color: red;
+  font-size: 15px;
+  margin-bottom: 2%;
+  margin-top: 3%
+}
+
+.lavori {
+  height: auto;
+  margin-right: 10%;
+}
+
+.distanza {
+  margin-left: 18%;
+}
+
+.mySlides {
+  margin:0 auto;
+}
+
+.freccia {
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+}
+
+.b {
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.b-left {
+left: 0;
+}
+
+.b-right {
+right: 0;
 }
