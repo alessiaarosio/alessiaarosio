@@ -1,0 +1,142 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  padding: 0 5%;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Light';
+    src: url('AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Heavy';
+    src: url('AvenirLTStd-Heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Demi';
+    src: url('AvenirNextLTPro-Demi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Book';
+    src: url('AvenirLTStd-Book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Black';
+    src: url('AvenirLTStd-Black.woff') format('woff');
+}
+
+h1 {
+  top: 2%;
+  left: 50vw;
+  font-size: 25px;
+  font-family: 'Avenir LT Std Heavy';
+  text-align: center;
+}
+
+.centro {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#barra {
+  height: auto;
+  width: 100%;
+  margin-top: 3%;
+}
+
+h2 {
+  font-family: 'Avenir Next LT Demi';
+  color: red;
+  font-size: 15px;
+  text-align: center;
+  transition: transform 0.5s;
+  margin: 20px 0;
+}
+
+h2:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.presentazione {
+  color: red;
+  font-family: 'Avenir Next LT Demi';
+  font-size: 17px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+h3 {
+  font-family: 'Avenir Next LT Demi';
+  text-align: left;
+  color: red;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+p {
+  font-family: 'Avenir LT Std Light';
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  margin-bottom: 5%;
+}
+
+.icona:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 0.5s;}
+
+h4 {
+  font-family: 'Avenir Next LT Demi';
+  text-align: left;
+  color: red;
+  font-size: 15px;
+  margin-bottom: 2%;
+  margin-top: 3%
+}
+
+.lavori {
+  height: auto;
+  margin-right: 10%;
+}
+
+.distanza {
+  margin-left: 18%;
+}
+
+.mySlides {
+  margin:0 auto;
+}
+
+.freccia {
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+}
+
+.b {
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.b-left {
+left: 0;
+}
+
+.b-right {
+right: 0;
+}
